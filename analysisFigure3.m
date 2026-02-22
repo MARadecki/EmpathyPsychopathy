@@ -1,4 +1,4 @@
-%% Figure 3
+%% Figure 3, co-written with Luca Cecchetti
 
 %% 1.1 Prepare the training and test sets: IRI-PT, IRI-EC, and PCL-R F1 
 % (and PCL-R total score, for the supplement)
@@ -437,8 +437,9 @@ P_PermPCL_Factor1 = MSE_DistroRankPCL_Factor1(1)
 % save ridgePCL_Factor1_SA_Perm
 
 % Calculate a 95% CI for R2
+
 N_Boot = 10000; % N for bootstrap samples
-bootR2 = zeros(N_Boot, 1); % To store R^2 for each bootstrap sample
+bootR2 = zeros(N_Boot, 1); % To store R2 for each bootstrap sample
 N_Test = height(Y_TestPCL_Factor1); % N for test samples
 
 rng default
@@ -464,9 +465,7 @@ for i = 1 : N_Boot
 
 end
 
-% Compute 95% confidence interval using percentile method
 CI_R2 = prctile(bootR2, [2.5, 97.5]);
 
-% Display results
 fprintf('Out-of-sample R^2: %.2f\n', R_SquaredPCL_Factor1);
 fprintf('95%% Confidence Interval for R^2: [%.2f, %.2f]\n', CI_R2(1), CI_R2(2));
