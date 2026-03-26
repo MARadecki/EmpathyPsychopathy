@@ -1,26 +1,24 @@
-Materials described below reproduce and/or derive from Radecki et al. (2026).
-Cortical Structure in Relation to Empathy and Psychopathy in 800 Incarcerated Men.
-Biological Psychiatry: Global Open Science, 100695, 6(3).
-https://doi.org/10.1016/j.bpsgos.2026.100695
-
 (1)
 
-Materials in the data/incarcerated/ and figures/ folders are licensed under the
+Materials in the data/incarcerated/ and figures/ directories are licensed under the
 Creative Commons Attribution 4.0 International License (CC BY 4.0):
 https://creativecommons.org/licenses/by/4.0/
 
-Figures in the figures/ folder are modified (main/) or higher-quality (supplement/)
-versions of those published in Radecki et al. (2026).
+Copyright (c) 2026 Marcin A. Radecki, J. Michael Maurer, Keith A. Harenski,
+David D. Stephenson, Erika Sampaolo, Giada Lettieri, Giacomo Handjaras,
+Emiliano Ricciardi, Samantha N. Rodriguez, Craig S. Neumann, Carla L. Harenski,
+Sara Palumbo, Silvia Pellegrini, Jean Decety, Pietro Pietrini, Kent A. Kiehl, &
+Luca Cecchetti
 
 (2)
 
-Materials in the data/HCP/ folder are distributed under the WU-Minn HCP Consortium
+Materials in the data/HCP/ directory are distributed under the WU-Minn HCP Consortium
 Open Access Data Use Terms:
 https://www.humanconnectome.org/study/hcp-young-adult/document/wu-minn-hcp-consortium-open-access-data-use-terms
 
 (3)
 
-Materials in the data/Yeo2011/ folder are licensed under the MIT License.
+Materials in the data/Yeo2011/ directory are licensed under the MIT License.
 
 Copyright (c) 2016 Computational Brain Imaging Group (CBIG)
 
@@ -44,7 +42,7 @@ SOFTWARE.
 
 (4)
 
-Materials in the code/ folder are licensed under the MIT License.
+Materials in the code/ directory are licensed under the MIT License.
 
 Copyright (c) 2026 Marcin A. Radecki & Luca Cecchetti
 
